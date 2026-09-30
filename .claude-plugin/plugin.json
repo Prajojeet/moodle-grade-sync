@@ -1,0 +1,9 @@
+{
+  "name": "moodle-grade-sync",
+  "description": "Upload TA marking-sheet marks and feedback into Moodle assignment grades, with per-student identity verification and an independent audit.",
+  "version": "1.0.0",
+  "author": { "name": "Prajojeet Pradhan" },
+  "homepage": "https://github.com/Prajojeet/moodle-grade-sync",
+  "license": "MIT",
+  "keywords": ["moodle", "grading", "teaching-assistant", "lms", "playwright"]
+}

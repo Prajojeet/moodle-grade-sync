@@ -1,0 +1,20 @@
+# Your Moodle session - NEVER commit these
+.browser-profile/
+session.json
+
+# Student data - names, roll numbers, marks
+runs/
+rosters/
+configs/
+*.xlsx
+*.xls
+*.csv
+
+# Your own lab configs (copy config.example.json instead)
+config.*.json
+!config.example.json
+
+__pycache__/
+*.pyc
+.venv/
+venv/

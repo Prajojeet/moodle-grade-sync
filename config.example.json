@@ -1,0 +1,43 @@
+{
+  "base_url": "https://moodle.example.edu",
+  "course": {
+    "id": null,
+    "shortname": "COURSE101",
+    "fullname": "Your Course Name (COURSE101)"
+  },
+  "lab": "lab1",
+  "notify_students": false,
+  "absent_zero": false,
+  "sheet": {
+    "path": "C:/path/to/Your_Lab_Evaluation.xlsx",
+    "columns": {
+      "roll": "Roll No",
+      "name": "Name",
+      "comment": "Comments",
+      "Code": "Code",
+      "Viva": "Viva"
+    }
+  },
+  "targets": {
+    "code": {
+      "name": "Assignment 1 Submission Link",
+      "cmid": null,
+      "column": "Code",
+      "max_grade": null,
+      "scale": 1,
+      "write_feedback": false,
+      "feedback_template": "{comment}",
+      "write_empty_feedback": false
+    },
+    "viva": {
+      "name": "In Lab Viva - Topic",
+      "cmid": null,
+      "column": "Viva",
+      "max_grade": null,
+      "scale": 1,
+      "write_feedback": true,
+      "feedback_template": "{comment}",
+      "write_empty_feedback": false
+    }
+  }
+}
